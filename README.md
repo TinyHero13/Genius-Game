@@ -4,9 +4,9 @@
 <p>I used JavaScript to make the game functionality and it has sounds.</p>
 
 ## Screenshots
-![Screenshot Genius](./img/screenshot1.png)<br />
-![Screenshot Color Picked](./img/screenshot2.png)<br />
-![Screenshot Game over](./img/screenshot2.png)<br />
+![Screenshot Genius](./img/Screenshot1.png)<br />
+![Screenshot Color Picked](./img/Screenshot2.png)<br />
+![Screenshot Game over](./img/Screenshot2.png)<br />
 
 
 ## Author
