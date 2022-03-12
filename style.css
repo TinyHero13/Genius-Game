@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-color: rgb(61, 57, 136);
+}
+
+.main-game{
+    margin-top: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.genius{
+    display: grid;
+    grid-template-areas: 'green red' 'yellow blue';
+    grid-gap: 10px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+}
+
+
+div .green{
+    grid-area: green;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
+div .yellow{
+    grid-area: yellow;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+div .red{
+    grid-area: red;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+
+div .blue{
+    grid-area: blue;
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+
+.selected{
+    opacity: 0.2;
+}
+
+.description{
+    color: white;
+    width: 30%;
+    display: block;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.title{
+    margin-left: 150px;
+}
+
+.score{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.buttonBox{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.buttonDark {
+    background-color: rgb(61, 57, 136);
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 10%;
+  }
+  
+.buttonDark:hover {
+background-color: #555555;
+color: white;
+}

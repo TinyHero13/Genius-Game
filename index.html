@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta content="author" name="Yasmim Abrahão" />
+    <title>Genius</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <div class="buttonBox">
+        <button class="button buttonDark" onClick="playGame()">
+            Iniciar jogo
+        </button>
+        <div class="score">
+            Pontuação: <span id="score">0</span>
+        </div>
+    </div>
+    
+    <div class="main-game">
+        <div class="genius">
+            <div class="green"></div>
+            <div class="yellow"></div>
+            <div class="red"></div>
+            <div class="blue"></div>
+        </div>
+
+        <div class="description">
+            <h3 class="title">Como jogar?</h3>
+            <ol>
+                <li>Aperte o botão de iniciar jogo. O GENIUS já vai dar o seu primeiro sinal!</li>
+                <li>O jogo começou: repita o sinal, pressionando a mesma lente colorida.</li>
+                <li>GENIUS repetirá o primeiro sinal e vai acrescentar mais um.</li>
+                <li>Repita então esses dois sinais, pressionando as lentes coloridas.</li>
+                <li>Genius repetirá os dois primeiros sinais e, na mesma sequência, aumentará mais um.</li>
+                <li>Continue desta forma, enquanto você conseguir repetir cada sequência de sinais corretamente.</li>
+                <li>Observe que GENIUS aumenta o ritmo automaticamente.</li>
+                <li>Se você não repetir alguma sequência corretamente GENIUS responderá com um som grave. É o sinal da derrota: você perdeu o jogo e a sequência de sinais acabou.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
